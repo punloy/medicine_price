@@ -13,4 +13,5 @@ $ py app.py
 ```
 
 ### Demo
-![](https://im2.ezgif.com/tmp/ezgif-2-5418f4727c07.gif)
+
+![](https://i.imgur.com/whpB9Ws.gif)
