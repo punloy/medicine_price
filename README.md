@@ -11,3 +11,6 @@ windows 10
 ```bash=
 $ py app.py
 ```
+
+### Demo
+![](https://im2.ezgif.com/tmp/ezgif-2-5418f4727c07.gif)
