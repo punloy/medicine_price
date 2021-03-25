@@ -1,5 +1,5 @@
-# medicine_price
-A system to search Japanese and Korean price of medicine.
+# Medicine system
+A system to search Japanese and Korean info of medicine.
 
 
 ## Development
