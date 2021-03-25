@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block head %}    
+{% endblock %}
+
+
+{% block body %}
+<div class="content" >
+    <div id="search">
+        <!--前端取值-->
+        <h2>Search</h2>
+        <form action="{{ url_for('searchPOST') }}" method="POST" >
+            <input type="text" name="search_key" >
+            <input type="submit" name="search_button" value="GO" >
+        </form>
+    </div>
+    <div id="result" style = overflow-x:auto;>
+        <!--OUTPUT {% for table in tables %}{% endfor %} -->
+        <h2>Result</h2>
+        <h3>{{ search_key }} </h3>
+        <h4>{{ search_result }}</h4>
+        <form action="{{ url_for('result_dn') }}" method="POST">
+            <input type="submit" name="nameinfo" value="藥名查詢結果"/>
+        </form>
+        <form action="{{ url_for('result_kr') }}" method="POST">
+            <input type="submit" name="krinfo" value="韓文資訊查詢結果"/>
+        </form>
+        <form action="{{ url_for('result_jp') }}" method="POST">
+            <input type="submit" name="jpinfo" value="日文資訊查詢結果"/>
+        </form>
+            
+    </div>
+
+</div>
+
+
+{% endblock %}

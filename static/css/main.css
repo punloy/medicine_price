@@ -1,0 +1,123 @@
+head, body, footer{
+  margin: 0 auto;
+  font-family: 'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+  text-align: center;
+}
+
+
+
+#content{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width:100%;
+  pointer-events:auto;
+  letter-spacing: 1px;
+  text-decoration-line: none;
+  vertical-align:middle;
+
+}
+#header {  
+  margin: auto;
+  height: 300px;
+  width: 1000px;
+  background-image: url("/static/img/top_freestocks-org.jpg");
+  background-position-y: -150px;
+  background-repeat: no-repeat;
+  background-size: 200%;  
+  opacity: rgb(194, 222, 233,0.75) ;
+  overflow:hidden;
+}
+#p_header{
+  color:#000;
+  padding-top: 80px;
+  background-color: rgba(250, 254, 255, 0.336); 
+  background-size: 100% 30px;
+  background-position-y: center;
+}
+#p_header h1{
+  line-height: 1.20;
+}
+#p_header h1 a{
+  color:#000!important;
+  text-decoration-line: none;  
+  text-shadow: 3px 2px lightgray ;
+}
+#p_header h1 a:hover{
+  text-decoration-line: underline;
+  text-decoration-color:darkslategray!important;
+  color:darkslategray!important;
+}
+
+input[type=submit] {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: darkslategray;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  height: 27px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  border:1px;
+  border-color: darkslategray!important;
+}
+input:hover[type=submit] {
+  background-color: #fff;
+  color: darkslategray!important;
+  border:1px;
+  border-color: darkslategray!important;
+
+}
+
+#search {  
+  margin: 0 auto;
+  width: 1000px;
+  opacity: rgb(194, 222, 233,0.75) ;
+  overflow:hidden;
+}
+
+#result, #result_btn{
+  margin: 0 auto;
+  width: 1000px;
+  background-attachment: fixed;
+  text-align: center;
+
+}
+
+footer{
+  width: 1000px;
+  height: 100%;
+  background-color: rgb(194, 222, 233,0.75);
+}
+
+h6{
+  size: 6px;
+  color: lightgray;
+  text-align: center;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #5f9ea0;
+  color: white;
+}

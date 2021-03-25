@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}    
+{% endblock %}
+
+
+{% block body %}
+<div id ="search">
+    <h2>About</h2><br>
+    <p>
+        歡迎使用本系統，<br>
+        透過英文藥名查詢日本、韓國詳細藥物資訊，<br>
+        按下開始後將跳轉至搜尋頁面<br>
+    </p><br>
+    <form action="{{ url_for('search') }}" method="POST">
+        <input class ="button" type="submit" name = "start" value=" START " ></button>
+    </form>
+    
+</div>
+{% endblock %}   
+    

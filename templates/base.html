@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        多國藥物資訊查詢系統
+    </title>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+        {% block head %}
+        {% endblock %}
+    </head>
+    <body>
+        <div id="content">
+            <div id=header >
+                    <div id ="p_header">
+                        <h1><a href="../">多國藥物資訊查詢系統</a></h1>     
+                    </div>
+                    
+            </div> 
+        </div>
+        {% block body %}{% endblock %}
+        <p></p>    
+    </body>
+    <footer>
+        <br>
+        <h6>Photo by freestocks.org on Unsplash</h6>
+    </footer>
+</html>
+
+<!--
+<div id="menu">
+    <br>
+    <br>
+    <button class="button_menu" style="vertical-align:middle"onclick="self.location.href='/';"><span>首　　頁 </span></button>&nbsp;&nbsp;
+    <button class="button_menu" style="vertical-align:middle"onclick="self.location.href='/info';"><span>藥物資訊 </span></button>&nbsp;&nbsp;
+    <button class="button_menu" style="vertical-align:middle"onclick="self.location.href='/search';"><span>多國查詢 </span></button>
+</div>
+-->
